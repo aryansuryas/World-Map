@@ -48,3 +48,22 @@ server/    Express proxy + stats API (optional)
 5. **Reset** returns to the full-India view.
 
 See `IMPLEMENTATION_PLAN.md` for architecture and roadmap.
+
+
+
+
+
+
+
+
+
+
+111111111111111
+ructural & Layout Issues
+Panel Overlap: The main left-hand statistics card physically overlaps the top navigation bar, obscuring the header text underneath it. This requires an adjustment to the card's top margin or its absolute positioning coordinates.
+Container Squishing & Truncation: The search bar is dominating the top navigation space, forcing the top-left subtitle text ("INDIA · STATES · DISTRICTS...") to truncate prematurely. Establishing a minimum width (min-width) for the logo container will prevent the search bar from crushing it.
+Visual & Contrast Inconsistencies
+Low Contrast Elements: The back arrow button (←) within the top right of the stats panel blends too heavily into the dark background, reducing its discoverability for the user.
+Thematic Clashing: The default map controls in the bottom right corner (zoom, compass, info) are stark white. This drastically breaks the immersive, dark glassmorphism aesthetic established by the rest of your custom UI.
+Map Popup Rendering (The "Black Box"): As you noted earlier regarding the click interaction on the map, popups failing to display correctly usually stem from either a z-index conflict (where the popup renders behind the map canvas or UI panels) or unstyled default tooltips that are inheriting conflicting background colors.
+Implementing your idea for a three-dot menu and a right-side slide-out panel will effectively resolve the spatial clutter.
