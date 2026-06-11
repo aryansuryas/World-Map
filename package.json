@@ -1,0 +1,13 @@
+{
+  "name": "bharat-atlas",
+  "version": "1.0.0",
+  "description": "Bharat Atlas 3D: cinematic, India-only interactive 3D map",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node server/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

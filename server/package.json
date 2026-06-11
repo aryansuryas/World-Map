@@ -1,0 +1,8 @@
+{
+  "name": "bharat-atlas-server",
+  "version": "1.0.0",
+  "description": "Optional backend for Bharat Atlas 3D: static hosting + API proxies with caching + India stats",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "express": "^4.19.2" }
+}

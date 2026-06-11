@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bharat Atlas 3D — India in Three Dimensions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet" />
+<link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div id="map"></div>
+
+<header class="brand glass">
+  <div class="brand-mark">🇮🇳</div>
+  <div>
+    <h1>Bharat Atlas <span>3D</span></h1>
+    <p>India · States · Districts · Streets</p>
+  </div>
+</header>
+
+<div class="searchbox glass">
+  <input id="search" type="text" placeholder="Search any place in India… (press Enter)" autocomplete="off" />
+  <ul id="search-results"></ul>
+</div>
+
+<nav class="toolbar glass">
+  <button id="btn-3d" class="tool active" title="Toggle 3D tilt">⛰ 3D</button>
+  <button id="btn-route" class="tool" title="Plan a route: click two points">🧭 Route</button>
+  <button id="btn-reset" class="tool" title="Back to full India view">🏠 India</button>
+</nav>
+
+<aside id="panel" class="panel glass">
+  <button id="panel-close" class="panel-close">←</button>
+  <h2 id="panel-title">India</h2>
+  <p id="panel-sub">Republic of India · Bhārat Gaṇarājya</p>
+  <div id="panel-body">
+    <div class="factgrid">
+      <div class="fact"><b data-count="28">0</b><span>States</span></div>
+      <div class="fact"><b data-count="8">0</b><span>Union Territories</span></div>
+      <div class="fact"><b data-count="785">0</b><span>Districts</span></div>
+      <div class="fact"><b data-count="22">0</b><span>Official Languages</span></div>
+    </div>
+    <p class="hint">Hover a state to preview · Click to dive in · Keep zooming for 3D buildings.</p>
+  </div>
+</aside>
+
+<div id="route-card" class="route-card glass hidden">
+  <h3>🧭 Route</h3>
+  <p id="route-status">Click your <b>start point</b> on the map.</p>
+  <div id="route-result" class="hidden">
+    <div class="route-stat"><b id="route-km">–</b><span>distance</span></div>
+    <div class="route-stat"><b id="route-time">–</b><span>by road</span></div>
+  </div>
+  <button id="route-clear" class="tool small">Clear</button>
+</div>
+
+<div id="tooltip" class="tooltip glass hidden"></div>
+<div id="loader" class="loader"><div class="spin"></div><p>Raising the Himalayas…</p></div>
+
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

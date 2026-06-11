@@ -1,0 +1,42 @@
+// Key facts for all 28 states + 8 union territories of India
+const INDIA_STATES = {
+  'Andhra Pradesh':{capital:'Amaravati',districts:26,area:'162,975 km²',tag:'Rice bowl of India · Tirupati · 974 km coastline.'},
+  'Arunachal Pradesh':{capital:'Itanagar',districts:25,area:'83,743 km²',tag:'Land of the dawn-lit mountains · Tawang monastery.'},
+  'Assam':{capital:'Dispur',districts:35,area:'78,438 km²',tag:'Tea gardens · Kaziranga one-horned rhinos · Brahmaputra.'},
+  'Bihar':{capital:'Patna',districts:38,area:'94,163 km²',tag:'Cradle of Buddhism · Nalanda, the ancient university.'},
+  'Chhattisgarh':{capital:'Raipur',districts:33,area:'135,192 km²',tag:'Dense forests · Chitrakote falls, the Indian Niagara.'},
+  'Goa':{capital:'Panaji',districts:2,area:'3,702 km²',tag:'Smallest state · beaches, heritage churches, carnival.'},
+  'Gujarat':{capital:'Gandhinagar',districts:33,area:'196,244 km²',tag:'Rann of Kutch · Gir lions · Statue of Unity.'},
+  'Haryana':{capital:'Chandigarh',districts:22,area:'44,212 km²',tag:'Kurukshetra of the Mahabharata · Gurugram tech hub.'},
+  'Himachal Pradesh':{capital:'Shimla',districts:12,area:'55,673 km²',tag:'Dev Bhoomi · snow peaks, apple orchards, Spiti valley.'},
+  'Jharkhand':{capital:'Ranchi',districts:24,area:'79,716 km²',tag:'Land of forests · mineral heart of India.'},
+  'Karnataka':{capital:'Bengaluru',districts:31,area:'191,791 km²',tag:'Silicon Valley of India · Hampi · Western Ghats coffee.'},
+  'Kerala':{capital:'Thiruvananthapuram',districts:14,area:'38,852 km²',tag:"God's Own Country · backwaters, spices, 100% literacy."},
+  'Madhya Pradesh':{capital:'Bhopal',districts:55,area:'308,245 km²',tag:'Heart of India · Khajuraho · tiger state.'},
+  'Maharashtra':{capital:'Mumbai',districts:36,area:'307,713 km²',tag:'Financial capital · Ajanta-Ellora caves · Bollywood.'},
+  'Manipur':{capital:'Imphal',districts:16,area:'22,327 km²',tag:'Jewel of India · Loktak floating lake.'},
+  'Meghalaya':{capital:'Shillong',districts:12,area:'22,429 km²',tag:'Abode of clouds · living root bridges · Cherrapunji rains.'},
+  'Mizoram':{capital:'Aizawl',districts:11,area:'21,081 km²',tag:'Land of the highlanders · bamboo forests.'},
+  'Nagaland':{capital:'Kohima',districts:16,area:'16,579 km²',tag:'Land of festivals · Hornbill festival.'},
+  'Odisha':{capital:'Bhubaneswar',districts:30,area:'155,707 km²',tag:'Konark Sun Temple · Chilika lake · Jagannath Puri.'},
+  'Punjab':{capital:'Chandigarh',districts:23,area:'50,362 km²',tag:'Land of five rivers · Golden Temple · breadbasket.'},
+  'Rajasthan':{capital:'Jaipur',districts:50,area:'342,239 km²',tag:'Largest state · Thar desert, forts and palaces.'},
+  'Sikkim':{capital:'Gangtok',districts:6,area:'7,096 km²',tag:'Kanchenjunga · first fully organic state.'},
+  'Tamil Nadu':{capital:'Chennai',districts:38,area:'130,058 km²',tag:'Temple architecture · Marina beach · classical arts.'},
+  'Telangana':{capital:'Hyderabad',districts:33,area:'112,077 km²',tag:'Charminar · pharma + IT powerhouse.'},
+  'Tripura':{capital:'Agartala',districts:8,area:'10,486 km²',tag:'Ujjayanta palace · bamboo crafts.'},
+  'Uttar Pradesh':{capital:'Lucknow',districts:75,area:'240,928 km²',tag:'Most populous state · Taj Mahal · Varanasi ghats.'},
+  'Uttarakhand':{capital:'Dehradun',districts:13,area:'53,483 km²',tag:'Land of gods · Char Dham · Valley of Flowers.'},
+  'West Bengal':{capital:'Kolkata',districts:23,area:'88,752 km²',tag:'Sundarbans tigers · Darjeeling tea · Howrah bridge.'},
+  'Andaman & Nicobar':{capital:'Port Blair',districts:3,area:'8,249 km²',tag:'572 emerald islands · Cellular Jail.'},
+  'Chandigarh':{capital:'Chandigarh',districts:1,area:'114 km²',tag:'Le Corbusier’s planned city.'},
+  'Dadra & Nagar Haveli and Daman & Diu':{capital:'Daman',districts:3,area:'603 km²',tag:'Portuguese heritage coastline.'},
+  'Delhi':{capital:'New Delhi',districts:11,area:'1,484 km²',tag:'National capital · Red Fort · India Gate.'},
+  'Jammu & Kashmir':{capital:'Srinagar / Jammu',districts:20,area:'42,241 km²',tag:'Paradise on Earth · Dal lake shikaras.'},
+  'Ladakh':{capital:'Leh',districts:7,area:'59,146 km²',tag:'Land of high passes · Pangong Tso.'},
+  'Lakshadweep':{capital:'Kavaratti',districts:1,area:'32 km²',tag:'Coral atolls in the Arabian Sea.'},
+  'Puducherry':{capital:'Puducherry',districts:4,area:'479 km²',tag:'French Riviera of the East · Auroville.'}
+};
+
+// Premium palette for state fills (earth + jewel tones; no purple)
+const STATE_PALETTE = ['#2e6b4f','#1f8a70','#3a7ca5','#c96f4a','#b08d3e','#5f7d4f','#946b4a','#33707e','#7d8f4e','#a3553f','#2f6f5e','#557a8a'];
