@@ -246,22 +246,3 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 🌟 **Thank you for visiting World-Map!** 🌍
 ```
 
----
-
-### ✅ How to Use This README.md
-
-1. **Save the file**: Copy the entire content above and save it as `README.md` in the root of your project.
-2. **Update links and details**: Replace placeholder URLs (like GitHub links, demo links, and contact info) with your actual project details.
-3. **Add screenshots**: Include images of your project in the `assets/images/` folder and reference them in the README.
-4. **Update the license**: Make sure the `LICENSE` file matches the license you're using (MIT, Apache, etc.).
-5. **Push to GitHub**: Commit and push the `README.md` to your repository.
-
----
-
-### 📌 Tips for Writing Great README Files
-
-- **Be concise but informative** — Avoid walls of text; use bullet points and sections.
-- **Use badges** — They make your project look professional and provide quick info.
-- **Include screenshots or GIFs** — Visuals help users understand your project faster.
-- **Keep it updated** — As your project evolves, update the README to reflect new features.
-- **Write for your audience** — Assume readers are developers or users who want to understand and use your project.
