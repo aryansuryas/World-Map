@@ -2,7 +2,6 @@ Here's a comprehensive `README.md` file for your **World-Map** project, covering
 
 ---
 
-```markdown
 # 🌍 World-Map
 
 > An interactive world map visualization project built with modern web technologies.
