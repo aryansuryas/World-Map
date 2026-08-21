@@ -4,7 +4,7 @@ Here's a comprehensive `README.md` file for your **World-Map** project, covering
 
 # 🌍 World-Map
 
-> An interactive world map visualization project built with modern web technologies.
+> An interactyive world map visualization project built with modern web technologies.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub stars](https://img.shields.io/github/stars/aryansuryas/World-Map.svg)](https://github.com/aryansuryas/World-Map/stargazers)
